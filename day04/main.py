@@ -60,4 +60,6 @@ if __name__ == "__main__":
     print(f"Part 1: Total score: {total_score}")
     print(f"Part 2: Total number of cards: {sum(number_of_cards.values())}")
     end = time.perf_counter()
-    print(f"Runtime of the program is {end - start}")
+    print(
+        f"Runtime of the program is {end - start}"
+    )  # 2 seconds now; 19 seconds in a first version.
